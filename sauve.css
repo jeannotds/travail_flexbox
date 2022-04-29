@@ -1,0 +1,376 @@
+@font-face {
+    font-family: 'Fraunces-Black';
+    src: url('font/Fraunces-Black.ttf');
+    font-weight: 900;
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    height: auto;
+    font-family: 'Fraunces-Black', sans-serif;
+}
+
+p{
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.logo{
+    width: 115px;
+    margin-top: 5px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    position: relative;
+    align-content: center;
+}
+
+.nav-menu{
+    display: none;
+}
+
+.top-fleche{
+    text-align: center;
+    margin-top: 53px;
+}
+
+.fleche{
+    width: 23px;
+}
+
+.navigation a{
+    margin: 5px 3px 5px 0;
+    padding: 11px 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: sans-serif;
+    
+}
+
+.navigation a:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border-radius: 20px;
+    transition: 0.3s all;
+}
+
+.contact{
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border-radius: 20px;
+}
+
+.col-contact{
+    color: rgba(0, 0, 0, 0.78);
+    font-weight: 900;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+}
+
+.img{
+    background-image: url('images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.contenu{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2.1rem;
+    word-spacing: 0.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.transform{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 248, 248);
+}
+
+.transform-2 div{
+    margin-right: 60px;
+}
+
+.transform div{
+    width: 310px;
+    padding-bottom: 70px;
+    margin-left: 50px;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.transform div h3{
+    padding: 30px 0;
+    font-size: 2em;
+    width: 270px;
+    margin-top: 29px;
+}
+
+.more-1{
+    position: absolute;
+    top: 241px;
+    left: 7px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.more-2{
+    position: absolute;
+    top: 241px;
+    left: 7px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.hr{
+    margin-top: 35px;
+    width: 90px;
+    height: 10px;
+    background: rgba(255, 165, 0, 0.3);
+    border: O;
+    border-radius: 5px;
+}
+
+.transform p{
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 0.5px 0.5px rgb(209, 209, 209);
+    font-size: 0.7rem;
+    line-height: 1.8;
+}
+
+.oeuf, .gob, .graphic{
+    height: 400px;
+    width: 50%;
+}
+
+
+
+.gob{
+    height: 400px;
+    width: 50%
+}
+
+.oeuf img{
+    width: 100%;
+    height: 400px;
+}
+
+.gob img{
+    width: 100%;
+    height: 400px;
+}
+
+.graphic, .disign{
+    height: 400px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-family: 'Fraunces-Black', sans-serif;
+}
+
+.graphic img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+.graph-disign{
+    position: absolute;
+    width: 250px;
+    margin-top: 260px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.graph-disign h3{
+    margin-bottom: 20px;
+    font-size: 1.22rem;
+}
+
+.graph-disign div{
+    font-size: 0.625rem;
+    line-height: 1.7;
+    color:  rgba(0, 0, 0, 0.5);
+}
+
+.client{
+    height: auto;
+    background-color: rgb(251, 248, 248);
+}
+
+.bloc-client{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.contenu-client{
+    padding: 30px 12px;
+    line-height: 1.5;
+}
+
+.tire-client{
+    text-align: center;
+    font-weight: bold;
+}
+
+.titre{
+    padding: 90px 0 20px;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.35);
+    font-weight: bold;
+}
+
+.client-1, .client-2, .client-3{
+    height: 300px;
+    width: 33.3%;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.img-client{
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.case-client{
+    width: 80%;
+    margin: auto;
+}
+
+.client h3{
+    padding: 45px 0 5px;
+    font-size: 0.74rem;
+}
+
+.comment{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.7rem;
+    line-height: 1.9;
+    font-family: sans-serif;
+}
+
+.fonction{
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 0.6rem;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.tophe-menu{
+    width: 25%;
+    height: 300px;
+}
+
+.tophe-menu img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(163, 215, 205);
+    background-color: rgb(144, 224, 221);
+    background-color: rgba(93, 179, 139, 0.6);
+    background-color: rgb(132, 196, 196);
+    background-color: rgb(16, 193, 196);
+}
+
+.log-footer{
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 1.3rem;
+    margin: 40px 0 25px;
+    font-weight: bolder;
+}
+
+.service a{
+    display: inline-block;
+    padding: 0px 22px 50px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+}
+
+.service a:hover{
+    color: rgba(0, 0, 0, 0.87);
+}
+
+
+.icons a{
+    display: inline-block;
+    padding: 0px 8px 50px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.icons img{
+    width: 13px;
+    border-radius: 2px;
+}
+
+.icons img:hover{
+    background-color: rgba(255, 255, 255, 0.99);
+}
+
+.icons a{
+    margin-top: 3px;
+}
